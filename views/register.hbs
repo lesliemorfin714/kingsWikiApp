@@ -1,0 +1,16 @@
+<h1>Welcome to KingUni Wiki!</h1>
+{{!-- {{> notify}} error handling --}}
+<section>
+    <h2>Register</h2>
+    <div class="spacer">
+        <form action="/register" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" placeholder="Username" name="username" value="" />
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Password" name="password" value="" />
+            <label for="repeatPassword">Repeat password:</label>
+            <input type="password" placeholder="Repeat-Password" name="repeatPassword" value="" />
+            <input type="submit" value="Register" />
+        </form>
+    </div>
+</section>
