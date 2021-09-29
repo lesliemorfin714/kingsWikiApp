@@ -33,7 +33,7 @@ const handleErrors = (err) => {
 // mongoDB connection
 mongoose
     .connect(
-      "mongodb+srv://atlasAdmin:abcde12345@cluster0.g2ipk.mongodb.net/cubeWorkshop?retryWrites=true&w=majority",
+      "",
       {
         dbName: "cubeWorkshop",
         user: "atlasAdmin",
