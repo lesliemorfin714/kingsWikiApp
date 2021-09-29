@@ -65,8 +65,8 @@ app.use(function (err, req, res, next) {
 
 // mongoDB connection
 mongoose
-    .connect(
-        "mongodb+srv://@cluster0.g2ipk.mongodb.net/?retryWrites=true&w=majority",
+    .connect(    
+            "mongodb+srv://lmorfin:<Illest1998!!>@cluster0.2qxy7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",",
         {
             dbName: process.env.DB_NAME,
             user: process.env.DB_USER,
