@@ -35,7 +35,7 @@ mongoose
     .connect(
       "",
       {
-        dbName: "cubeWorkshop",
+        dbName: "wikiapp",
         user: "atlasAdmin",
         pass: "abcde12345",
         useNewUrlParser: true,
