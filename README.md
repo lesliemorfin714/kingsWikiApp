@@ -1,5 +1,8 @@
 # kingsWikiApp
 
+
+CLASS PROJECT 
+
 Step 1: npm install
 
 Step 2: npm start --> This will run "nodemon ./bin/www"
